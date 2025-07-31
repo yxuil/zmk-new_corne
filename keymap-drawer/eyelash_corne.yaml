@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: LGUI}
+  - '&HT LALT A'
+  - '&HT LCTRL S'
+  - '&HT LSHIFT D'
+  - '&HT LGUI F'
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - '&HT RCMD J'
+  - '&HT RSHIFT K'
+  - '&HT LCTRL L'
+  - '&HT RALT SEMI'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
@@ -45,8 +45,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Fn
   - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - '&HT LSHIFT ENTER'
+  - '&HT RSHIFT SPACE'
   - {t: '$$mdi:keyboard-esc$$', h: SYMBOL}
   - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
@@ -197,11 +197,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [15, 16]
+- p: [16, 17]
   k: {t: '[', s: '{'}
-- p: [19, 20]
+- p: [23, 24]
   k: {t: ']', s: '}'}
-- p: [14, 15]
+- p: [15, 16]
   k: '{'
-- p: [20, 21]
+- p: [25, 24]
   k: '}'
