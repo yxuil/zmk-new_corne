@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - A
-  - b
-  - c
+  - B
+  - C
   - D
   - E
   - F
