@@ -92,7 +92,7 @@
 &none    &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &kp R       &kp T                               &kp UP                &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &kp O        &kp P          &none  
 &none    &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &HT LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &HT LALT A  &HT LCTRL S  &HT LSHIFT D &HT LCTRL L  &HT RALT SEMI  &none  
 &none    &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &kp V       &kp B        &none                  &kp DOWN             &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &kp DOT      &kp FSLH       &none  
-                         &HT LALT A  &HT LCTRL S  &HT LSHIFT D                                                   &HT LALT A  &HT LCTRL S  &HT LSHIFT D
+                         &kp A  &kp b  &kp c                                                   &kp D &kp E  &kp F
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
