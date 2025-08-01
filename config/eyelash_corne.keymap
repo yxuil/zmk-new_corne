@@ -90,9 +90,9 @@
             display-name = "QWERTY";
             bindings = <
 &none    &kp Q       &kp W        &kp E         &kp R       &kp T                               &kp UP                &kp Y        &kp U  &kp I          &kp O        &kp P          &none  
-&none    &HT LALT A  &HT LCTRL S  &HT LSHIFT D  &HT LGUI F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H   &HT RCMD J  &HT RSHIFT K   &HT LCTRL L  &HT RALT SEMI  &none  
+&none    &HT LALT A  &HT LCTRL S  &lt 1 TAB   &HT LSHIFT ENTER &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H   &HT RCMD J  &HT RSHIFT K   &HT LCTRL L  &HT RALT SEMI  &none  
 &none    &kp Z       &kp X        &kp C         &kp V       &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA      &kp DOT      &kp FSLH       &none  
-                         &mo 3      &lt 1 TAB   &HT LSHIFT ENTER                                                   &HT RSHIFT SPACE  &lt 2 ESC     &kp BACKSPACE
+                         &mo 3      &HT LSHIFT D  &HT LGUI F                                                   &HT RSHIFT SPACE  &lt 2 ESC     &kp BACKSPACE
             >;
 
              sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
