@@ -95,8 +95,6 @@
                          &mo 3      &lt 1 TAB   &HT LSHIFT ENTER                                                   &HT RSHIFT SPACE  &lt 2 ESC     &kp BACKSPACE
             >;
 
-             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
-
            
         };
 
@@ -109,7 +107,6 @@
                               &trans     &trans         &trans                                                                          &kp N0     &kp EQUAL  &kp DEL
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
@@ -121,7 +118,6 @@
                               &trans     &trans            &kp SPACE                                                                                                     &trans     &trans            &kp SPACE      
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -133,7 +129,6 @@
                                     &trans           &rgb_ug RGB_TOG  &rgb_ug RGB_EFF                                                                  &trans         &trans  &trans 
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
     };
 };
